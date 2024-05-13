@@ -1,0 +1,87 @@
+.container {
+    margin: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(19, 100px);
+    grid-template-rows: repeat(8, 100px);
+    width: 600 px;
+    height: 600px;
+    
+}
+
+.item1 {
+
+    background-color: rgb(6, 255, 6);
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-align: center;
+    color: white;
+    margin: 3px;
+}
+
+.item2 {
+
+    background-color: #d5bcd6;
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    text-align: center;
+    color: white;
+    margin: 3px;
+}
+
+.item3 {
+
+    background-color: #273c24;
+    grid-column: 1 / 4;
+    grid-row: 4 / 7;
+    text-align: center;
+    color: white;
+    margin: 3px;
+}
+
+.item4 {
+    grid-column: 4 / -1;
+    grid-row: 2 / 6;
+    background-color: #af803a;
+    text-align: center;
+    color: white;
+    margin: 3px;
+
+}
+
+.item5 {
+    grid-column: 4 / -1;
+    grid-row: 6 / 6;
+    background-color: #edb27a;
+    text-align: center;
+    color: white;
+    margin: 3px;
+}
+
+.item6 {
+    grid-column: 1 / 6;
+    grid-row: 7 / 8;
+    text-align: center;
+    color: white;
+    background-color: #00BCD4;
+    margin: 3px;
+
+}
+
+.item7 {
+    grid-column: 6 / -1;
+    background-color: #EC407A;
+    color: white;
+    text-align: center;
+    margin: 3px;
+}
+
+
+.item8 {
+    grid-column: 1 / -1;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin: 3px;
+
+}
