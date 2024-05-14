@@ -13,6 +13,7 @@
 .parant div{
     text-align: center;
     margin: 5px;
+    
 }
 
 .item1 {
@@ -20,10 +21,9 @@
     padding: 10px;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
-    /* text-align: center; */
     color: white;
     background-color: #26C6DA;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -35,7 +35,8 @@
     background-color: #0080007a;
     font-size: 40px;
     color: white;
-    text-align: center;
+    align-content: center;
+    
 }
 
 .item3 {
@@ -47,24 +48,20 @@
     background-color: #ff9800b5;
     font-size: 40px;
     color: white;
-    display: grid;
+    
     
     
 }
 
-/* .item3 div {
 
+.box{
+    display: flex;
     
-
-    background-color: rgb(187, 187, 53);
-    width: 100px;
-    height: 100px;
-    
-} */
+}
 .box div {
   
-    display: inline-block; 
-    margin-right: 20px;
+    align-content: flex-end;
+    margin: 20px;
     padding: 20px;
     background-color: rgb(187, 187, 53);
     width: 100px;
@@ -82,3 +79,4 @@
     padding: 10px;
     margin: 2px;
 }
+

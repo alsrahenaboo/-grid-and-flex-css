@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+.parant{
+    width: 450px;
+    height: 450px;
+    background-color:#ffeb3bb0;
+    border-radius: 20px;
+    box-shadow: 3px 30px 2px #9e9e9eb8;
+    
+    
+
+   
+    
+}
+.parant div{
+ display: inline-block;
+ padding: 10px;
+ font-weight: bold;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+/* .parant div div{
+    font-weight: bold;
+} */
+
+
