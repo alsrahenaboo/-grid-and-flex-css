@@ -1,14 +1,14 @@
 body{
-    background-color: aqua;
+    background-color: rgb(127, 230, 230);
     width: 500px;
     height: 500px;
 }
 .parant{
     width: 450px;
     height: 450px;
-    background-color:#ffeb3bb0;
+    background-color:#f8ed89b0;
     border-radius: 20px;
-    box-shadow: 3px 30px 2px #9e9e9eb8;
+    box-shadow: 20px 30px 2px #9e9e9eb8;
     
     
 

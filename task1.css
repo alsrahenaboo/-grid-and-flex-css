@@ -1,11 +1,19 @@
+/* body{
+    width: fit-content;
+    min-height: 100px;
+} */
+
 .container {
-    margin: 30px;
+    width: 600px;
+    height: 600px;
+   
+
+    margin-top: 3px;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(19, 100px);
+    grid-template-columns: repeat(12, 100px);
     grid-template-rows: repeat(8, 100px);
-    width: 600 px;
-    height: 600px;
+    
     
 }
 
